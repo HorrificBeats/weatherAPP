@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(207, 155, 255);
+    font-size: large;
+}
+
+nav {
+    background-color: rgba(46, 41, 78, 0.44);
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+}
+
+#weatherTable_wrapper {
+    background-color: rgba(46, 41, 78, 0.44);
+    border-radius: 5px;
+    margin-bottom: 5%;
+    padding: 1%;
+}
+
+#weatherTable_length label, #weatherTable_info, .paginate_button {
+    color: white;
+}
+
+#resultsCard__inside {
+    color:rgb(0, 0, 0);
+}
+
+
+
+/* Animations */
+    .enterEffect {
+        animation-name: enterEffect;
+        animation-duration: .5s;
+        animation-timing-function: ease;
+        animation-iteration-count: 1;
+    }
+
+    @keyframes enterEffect {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .exitEffect {
+        animation-name: exitEffect;
+        animation-duration: .2s;
+        animation-timing-function: ease;
+        animation-iteration-count: 1;
+    }
+
+    @keyframes exitEffect {
+        0% {
+            opacity: 1;
+        }
+        100% {
+        opacity: 0;
+        }
+    }
+/*  */
